@@ -5,7 +5,7 @@ import { theme, } from '../../../Constants/Theme'
 const styles = StyleSheet.create({
 
 	headerMain: {
-		backgroundColor: theme.THEME_COLOR,
+		backgroundColor: color._0C365A,
 		paddingBottom: wp(4.5),
 		borderBottomRightRadius: 30,
 		borderBottomLeftRadius: 30,
@@ -18,7 +18,6 @@ const styles = StyleSheet.create({
 				paddingTop: wp(3),
 			},
 			android: {
-				paddingTop: StatusBar.currentHeight,
 
 			},
 		}),

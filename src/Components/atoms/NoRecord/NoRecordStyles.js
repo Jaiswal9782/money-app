@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
 		alignItems:'center',
 	},
 	inputLableTaxt: {
-		fontSize:wp(5),
+		fontSize:wp(4.5),
 		textAlign:'center'
 		
 	},

@@ -35,7 +35,10 @@ const Containers = ({}) => {
 
   const _StatusBar = () => {
     if (
-      stateGlobal.currentRouteName === 'Card' ||
+      stateGlobal.currentRouteName === 'MyTab' ||
+      stateGlobal.currentRouteName === 'Home' ||
+      stateGlobal.currentRouteName === 'Payment' ||
+      stateGlobal.currentRouteName === 'card' ||
       stateGlobal.currentRouteName === 'Detail'
     ) {
       setBgBarColor(color._0C365A);

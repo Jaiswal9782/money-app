@@ -44,6 +44,7 @@ const styles = StyleSheet.create({
 	},
 	bottom:{
 		paddingTop:hp(20),
+		paddingBottom:hp(5),
 		backgroundColor: color._WHITE,
 		borderTopLeftRadius: wp(6),
 		borderTopRightRadius: wp(6),
